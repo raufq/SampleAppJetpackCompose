@@ -48,11 +48,8 @@ class MainActivityTwo : ComponentActivity(){
         super.onCreate(savedInstanceState)
         setContent {
             MyApplicationTheme {
-
-                MyApplicationTheme {
-                    Surface(color = Color.White) {
+                Surface(color = Color.Blue) {
                         NavigationDrawerApp()
-                    }
                 }
             }
 
